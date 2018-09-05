@@ -9,4 +9,8 @@ class BattleshipTest < Minitest::Test
     assert_instance_of Battleship, battleship
   end
 
+  def test_user_input
+    battleship = Battleship.new
+    
+  end
 end

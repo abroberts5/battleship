@@ -1,9 +1,5 @@
 class Board
 
-  def initialize(argument)
-    @argument = argument
-  end
-
   def display_map
     puts "==========="
     puts ". 1 2 3 4  "
@@ -13,4 +9,5 @@ class Board
     puts "D          "
     puts "==========="
   end
+
 end

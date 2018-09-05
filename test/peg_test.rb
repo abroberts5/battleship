@@ -8,4 +8,5 @@ class PegTest < Minitest::Test
 
     assert_instance_of Peg, peg
   end
+  
 end
