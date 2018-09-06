@@ -15,7 +15,8 @@ user_response = $stdin.gets.chomp
     puts "second is three units long."
     puts "The grid has A1 at the top left and D4 at the bottom right."
     puts ""
-    puts "Enter the squares for the two-unit ship:"
+    puts "Enter the squares for the two-unit ship as follows:"
+    puts "E1, E2"
     print ">"
     user_response = $stdin.gets.chomp
 
@@ -23,10 +24,19 @@ user_response = $stdin.gets.chomp
       puts "Enter the squares for the three-unit ship:"
       print "> "
       user_response = $stdin.gets.chomp
+        puts "Thank you for your selection"
+        puts "Let's Get ready to rumble"
 
     else user_response == " "
-      puts "try again"
+      puts "good one pal, try again"
+      puts "> "
       user_response = $stdin.gets.chomp
+      puts ""
+      puts "oh well, looks like we have a malfunction, or your"
+      puts "TYPINGNA is Terrible :o"
+      puts ""
+      puts ""
+      puts "Lol! Don't feel bad, this game doesn't work yet"
     # ship_1 = random_ship
     # ship_2 = random_ship
     end
@@ -39,13 +49,19 @@ user_response = $stdin.gets.chomp
     puts "peg missile. Beware, because the computer will"
     puts "fire BACK! First to sink the other's ship"
     puts "wins by Force! Good Luck"
+    puts ""
+    puts "Do you want to go the main menu? (y/n)"
+    puts "> "
+    user_response = $stdin.gets.chomp
+    puts "doesn't work, I didn't get that far yet :p"
 
   elsif user_response == "q"
     puts "Your loss, Come Back if you dare"
     puts "Would you like to start over? (y/n)"
     user_response = $stdin.gets.chomp
       if user_response == "y"
-        puts "run ruby again, I didn't figure this out yet"
+        puts "Oh You've startled me!"
+        puts "run ruby again, and please don't look at me like that"
       else
         puts "yup, have a great Day..."
       end
